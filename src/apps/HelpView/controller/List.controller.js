@@ -14,7 +14,7 @@ sap.ui.define(
 		});
 		theClass.prototype.onInit = async function (evt) {
 			const oJson = {
-				value : 1.234
+				value : "12345678.91"
 			};
 			const oModel = new JSONModel(oJson);
 			this.getView().setModel(oModel);
