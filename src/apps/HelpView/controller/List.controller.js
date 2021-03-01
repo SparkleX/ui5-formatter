@@ -20,7 +20,8 @@ sap.ui.define(
 			this.getView().setModel(oModel);
 		};
 		theClass.prototype.onPress = function (evt) {
-			alert('1');
+			const oModel = this.getView().getModel();
+			console.info(oModel.getJSON());
 		};
 		return theClass;
 	}

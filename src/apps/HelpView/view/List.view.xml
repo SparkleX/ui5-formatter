@@ -6,12 +6,12 @@
 	xmlns:mvc="sap.ui.core.mvc.View"
 	xmlns:f="sap.f"
 	xmlns:fb="sap.ui.comp.filterbar"
-	xmlns:widget="demo.widget"
-	displayBlock="true">
+	xmlns:widget="demo.widget" displayBlock="true">
 	<Page id="page">
 		<headerContent>
 		</headerContent>
 		<Label id="label1" text="Label 1"></Label>
 		<Input id="input4" value="{/value}"></Input>
-	</Page>	
+		<Button press=".onPress" text="test"/>
+	</Page>
 </mvc:View>
